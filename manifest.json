@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Dyslexia Easy Access",
+  "version": "1.0",
+  "description": "Accessibility tool created through Dyslexia research to better enhance a person with Dyslexia's online experience.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["app.js"]
+    }
+  ]
+}

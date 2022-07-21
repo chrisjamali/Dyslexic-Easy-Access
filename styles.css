@@ -1,0 +1,36 @@
+/* * {
+  background-color: #ffff00;
+} */
+
+@font-face {
+  font-family: OpenDyslexic-Regular;
+  /* font-style: 'Regular';
+    font-weight: normal; */
+  src: url('path/OpenDyslexic2/OpenDyslexic-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: OpenDyslexicMono-Regular;
+  letter-spacing: 0.35em;
+  /* font-style: 'Regular';
+  font-weight: normal; */
+  src: url('path/OpenDyslexic2/OpenDyslexicMono-Regular.otf') format('opentype');
+  size: 16px;
+}
+.regular {
+  font-family: OpenDyslexicMono-Regular !important;
+  /* font-weight: bold; */
+  letter-spacing: 0.35em !important;
+  line-height: 1em !important;
+    background: #ffff00;
+      color: #000000;
+}
+.code {
+  font-family: OpenDyslexicMono-Regular;
+  letter-spacing: 0.35em;
+  line-height: 1em;
+}
+
+body {
+  background: #ffff00;
+  color: 000000;
+}
